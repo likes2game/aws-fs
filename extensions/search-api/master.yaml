@@ -387,7 +387,7 @@ Resources:
     Properties:
       ResourceId: !Ref SearchApiResource
       RestApiId: !If [CreateNewAPIGateway, !Ref NewAPIGateway, !Ref ExistingAPIGatewayId]
-      AuthorizationType: None
+      AuthorizationType: NONE
       HttpMethod: OPTIONS
       Integration:
         Type: MOCK

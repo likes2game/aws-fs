@@ -327,7 +327,7 @@ Resources:
     Properties:
       ResourceId: !Ref GoalsApiResource
       RestApiId: !Ref AppApi
-      AuthorizationType: None
+      AuthorizationType: NONE
       HttpMethod: OPTIONS
       Integration:
         Type: MOCK
@@ -419,7 +419,7 @@ Resources:
     Properties:
       ResourceId: !Ref GoalItemApiResource
       RestApiId: !Ref AppApi
-      AuthorizationType: None
+      AuthorizationType: NONE
       HttpMethod: OPTIONS
       Integration:
         Type: MOCK
