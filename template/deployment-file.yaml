@@ -1,5 +1,4 @@
-template-file-path: ./master-fullstack.yaml
+template-file-path: ./template/master-fullstack.yaml
 Tags:
     Name: 'aws-fs'
     Project: 'Phoenix'
-    
